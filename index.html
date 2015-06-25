@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="todoApp">
+    <head>
+
+        <!-- Charset of page -->
+        <meta charset="utf-8" />
+
+        <!-- Langue -->
+        <meta name="Content-Language" content="fr" />
+
+        <!-- Titre de la page -->
+        <title>D&eacute;mo Tutoriel AngularJS</title>
+
+        <!-- Feuille de style -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Description -->
+        <meta name="description" content="Application test pour le tutoriel du site Tutoriel AngularJS" />
+        
+        <!-- Javascript -->
+        <!-- Vendor Scripts -->
+      <script src="bower_components/angular/angular.min.js"></script>
+      <script src="bower_components/angular-route/angular-route.min.js"></script>
+      <script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+       <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+
+        <!-- Scripts de l'application -->
+        <script src="js/app.js"></script>
+        <script src="js/controllers/controllers.js"></script>
+         <script src="js/services/services.js"></script>
+
+    </head>
+    <body>
+        
+        <!-- Le conteneur global -->
+        <div class="view-container">
+            
+            <!-- Là où la vue partielle sera intégrée -->
+            <div ng-view></div>
+
+        </div>
+
+    </body>
+</html>
